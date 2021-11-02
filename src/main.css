@@ -1,0 +1,57 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 104px;
+}
+.mainOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.pOne{
+    transform: rotate(90deg);
+    margin-right: -30px;
+
+}
+.menu{
+    display: none;
+    width: 33px;
+    height: 19px;
+    color: black;
+}
+/* @media (min-width: 375px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .phoneMain{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 47px;
+        line-height: 58px;
+        margin-right: 162px;
+    }
+    .menu{
+        display: block;
+        width: 33px;
+        height: 19px;
+        color: black;
+    }
+    h5{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .pOne{
+        display: none;
+    }
+    .man{
+        width: 316px;
+        height: 478px;
+    }
+
+    
+} */
